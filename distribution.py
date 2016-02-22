@@ -39,5 +39,6 @@ Notice about this example:
 string = input("Please enter a string of text (the bigger the better): ")
 print('The distribution of characters in "' +string+ '" is: ')
 
-abc = import string(string.ascii_lowercase)
+import string(string.ascii_lowercase)
+abc= string.ascii_lowercase
 print(abc)
