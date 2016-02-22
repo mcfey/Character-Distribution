@@ -44,6 +44,7 @@ abc= string.ascii_lowercase
 print(abc)
 
 for x in abc:
-    n = string.count(abc(x))
-    print(n * abc(x))
+    n = string.count(x)
+    if n > ):
+        print(n * x))
     
