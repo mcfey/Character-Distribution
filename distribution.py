@@ -41,10 +41,9 @@ print('The distribution of characters in "' +string+ '" is: ')
 
 import string
 abc= string.ascii_lowercase
-print(abc)
 
 for x in abc:
-    n = string.count(x)
+    n=string.count(x)
     if n>0:
         print(n*x)
     
