@@ -45,6 +45,6 @@ print(abc)
 
 for x in abc:
     n = string.count(x)
-    if n > ):
+    if n>0:
         print(n * x))
     
