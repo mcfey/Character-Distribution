@@ -41,15 +41,16 @@ print('The distribution of characters in "' + text + '" is: ')
 
 import string
 abc= string.ascii_lowercase
-numbers= list(range(0,26))
 
+countlist = []
 
 for x in abc:
     n=text.count(x)
-    print(n)
-    for x in numbers:
-        numbers[x]= n
+    if n > 0: 
+        countlist.apprend((n, x))
 
-print(numbers)
+print(countlist)
+
+
     
     
