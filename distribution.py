@@ -42,13 +42,14 @@ print('The distribution of characters in "' + text + '" is: ')
 import string
 abc= string.ascii_lowercase
 numberscopy= list(range(0,26))
-numbers= string.ascii_lowercase
+numbers= list(range(1,27))
 
 
 for x in abc:
     n=text.count(x)
     print(n)
-    numbers[x]=n
+    for x in numbers:
+        numbers[x]=n
 
 print(numbers)
     
