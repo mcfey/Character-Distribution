@@ -48,7 +48,7 @@ numbers= list(range(1,27))
 for x in abc:
     n=text.count(x)
     print(n)
-    for x in numbers:
+    for x in numberscopy:
         numbers[x]=n
 
 print(numbers)
