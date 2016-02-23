@@ -44,6 +44,7 @@ abc= string.ascii_lowercase
 numberscopy= list(range(0,26))
 numbers= list(range(0,26))
 
+print(numbers)
 
 for x in abc:
     n=text.count(x)
