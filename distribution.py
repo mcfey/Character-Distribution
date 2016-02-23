@@ -52,7 +52,8 @@ countlist.sort()
 countlist.reverse()
 print(countlist)
 
-for y in countlist:
-    print(str(5*y))
+zip(*countlist)
+print(countlist)
+   
     
     
