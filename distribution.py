@@ -52,6 +52,7 @@ countlist.sort()
 countlist.reverse()
 print(countlist)
 
-
+list = split.countlist()
+print(list)
     
     
