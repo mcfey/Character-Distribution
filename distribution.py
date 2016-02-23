@@ -52,7 +52,7 @@ countlist.sort()
 countlist.reverse()
 
 for x in countlist:
-    if countlist[x] == countlist[x+1]
+    if countlist[x] == countlist[(x+1)]
     sorted(countlist[x:x+2], key=itemgetter(1,2))
 
 print(countlist)
