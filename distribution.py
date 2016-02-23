@@ -52,8 +52,8 @@ countlist.sort()
 countlist.reverse()
 print(countlist)
 
-zip(*countlist)
-print(countlist)
+list(x) for x in zip(*1)
+print(list)
    
     
     
