@@ -53,6 +53,6 @@ countlist.reverse()
 print(countlist)
 
 list1 = countlist.split()
-print(list)
+print(list1)
     
     
