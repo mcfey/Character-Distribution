@@ -47,7 +47,7 @@ countlist = []
 for x in abc:
     n=text.count(x)
     if n > 0: 
-        countlist.apprend((n, x))
+        countlist.append((n, x))
 
 print(countlist)
 
