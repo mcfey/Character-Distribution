@@ -41,7 +41,6 @@ print('The distribution of characters in "' + text + '" is: ')
 
 import string
 abc= string.ascii_lowercase
-
 countlist = []
 
 for x in abc:
