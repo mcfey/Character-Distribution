@@ -43,7 +43,6 @@ import string
 abc= string.ascii_lowercase
 numbers= list(range(0,26))
 
-print(numbers)
 
 for x in abc:
     n=text.count(x)
