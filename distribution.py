@@ -50,6 +50,7 @@ for x in abc:
         countlist.append((n, x))
 
 countlist.sort()
+countlist.reverse()
 print(countlist)
 
 
