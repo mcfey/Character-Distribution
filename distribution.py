@@ -45,6 +45,7 @@ numbers= list(range(0,26))
 
 for x in abc:
     n=text.count(x)
+    print(n, end"")
     for y in numbers:
         numbers[y]=n
 
