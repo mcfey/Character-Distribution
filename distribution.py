@@ -53,6 +53,6 @@ countlist.reverse()
 print(countlist)
 
 for y in countlist:
-    print(n*y)
+    print(str(5*y))
     
     
