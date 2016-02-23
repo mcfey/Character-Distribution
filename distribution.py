@@ -49,6 +49,7 @@ for x in abc:
     if n > 0: 
         countlist.append((n, x))
 
+countlist.sort()
 print(countlist)
 
 
