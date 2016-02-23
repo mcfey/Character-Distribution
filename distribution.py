@@ -49,7 +49,7 @@ for x in abc:
     n=text.count(x)
     print(n)
     for x in numbers:
-        numbers[x]= str(n)
+        numbers[x]= n
 
 print(numbers)
     
