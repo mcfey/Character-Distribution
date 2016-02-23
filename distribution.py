@@ -1,7 +1,7 @@
 """
 distribution.py
-Author: <your name here>
-Credit: <list sources used, if any>
+Author: Mary Feyrer 
+Credit: Tess Snyder
 
 Assignment:
 
@@ -50,10 +50,13 @@ for x in abc:
 
 countlist.sort()
 countlist.reverse()
+
+for x in countlist:
+    if countlist[x] == countlist[x+1]
+    sorted(countlist[x:x+2], key=itemgetter(1,2))
+
 print(countlist)
 
-list(x) for x in zip(*1)
-print(list)
-   
+
     
     
