@@ -1,9 +1,9 @@
 """
 distribution.py
 Author: Mary Feyrer 
-Credit: Tess Snyder
+Credit: Tess Snyder, https://wiki.python.org/moin/HowTo/Sorting
 
-Assignment:
+Assignment: 
 
 Write and submit a Python program (distribution.py) that computes and displays 
 the distribution of characters in a given sample of text.
