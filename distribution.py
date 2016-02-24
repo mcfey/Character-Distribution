@@ -1,7 +1,7 @@
 """
 distribution.py
 Author: Mary Feyrer 
-Credit: Tess Snyder, 
+Credit: Tess Snyder 
 
 Assignment: 
 
@@ -47,19 +47,10 @@ countlist = []
 for x in abc:
     n=text.count(x)
     if n > 0: 
-        countlist.append((x, n))
+        countlist.append((n, x))
 
-def getkey(item):
-    return item[0]
-countlist = sorted(countlist, key= getkey)
 
-print(countlist)
-
-def getkey(item):
-    return item[1]
-countlist = sorted(countlist, key= getkey)
-countlist.reverse()
-
+countlist = sorted(countlist, key=lambda x: (-x[0], x[1])
 
 print(countlist)
 
