@@ -1,7 +1,7 @@
 """
 distribution.py
 Author: Mary Feyrer 
-Credit: Tess Snyder, https://wiki.python.org/moin/HowTo/Sorting
+Credit: Tess Snyder, 
 
 Assignment: 
 
@@ -46,12 +46,13 @@ countlist = []
 for x in abc:
     n=text.count(x)
     if n > 0: 
-        countlist.append((n, x))
+        countlist.append((x, n))
 
-countlist.sort()
-countlist.reverse()
+def getkey(item):
+        return item[1]
+sorted(countlist, key= getkey)
 
-sorted(countlist, key=itemgetter(0))
+print(countlist)
 
 for x in countlist:
     print(x[1]*x[0])
