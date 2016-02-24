@@ -49,12 +49,14 @@ for x in abc:
         countlist.append((x, n))
 
 
-def getkey(countlist):
-        return countlist[1]
+def getkey(item):
+    return item[1]
 countlist = sorted(countlist, key= getkey)
 countlist.reverse()
-countlist = sorted(countlist, key=itemgetter(0))
 
+def getkey(item):
+    return item[0]
+countlist = sorted(countlist, key= getkey)
 
 print(countlist)
 
