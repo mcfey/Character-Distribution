@@ -50,9 +50,10 @@ for x in abc:
 
 def getkey(countlist):
         return countlist[1]
-countlist2 = sorted(countlist, key= getkey)
+countlist = sorted(countlist, key= getkey)
+countlist.reverse()
 
-print(countlist2)
+print(countlist)
 
 for x in countlist:
     print(x[1]*x[0])
