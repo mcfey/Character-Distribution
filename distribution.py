@@ -48,15 +48,15 @@ for x in abc:
     if n > 0: 
         countlist.append((x, n))
 
+def getkey(item):
+    return item[0]
+countlist = sorted(countlist, key= getkey)
 
 def getkey(item):
     return item[1]
 countlist = sorted(countlist, key= getkey)
 countlist.reverse()
 
-def getkey(item):
-    return item[0]
-countlist = sorted(countlist, key= getkey)
 
 print(countlist)
 
