@@ -52,7 +52,6 @@ for x in abc:
 
 countlist = sorted(countlist, key=lambda x: (-x[0], x[1]))
 
-print(countlist)
 
 for x in countlist:
     print(x[1]*x[0])
