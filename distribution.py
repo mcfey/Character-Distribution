@@ -53,6 +53,8 @@ def getkey(item):
     return item[0]
 countlist = sorted(countlist, key= getkey)
 
+print(countlist)
+
 def getkey(item):
     return item[1]
 countlist = sorted(countlist, key= getkey)
