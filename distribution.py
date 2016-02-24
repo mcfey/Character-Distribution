@@ -52,11 +52,11 @@ countlist.sort()
 countlist.reverse()
 
 for x in countlist:
-    
     if countlist[x] == countlist[x+1] # x does not equal a number, do count.coutlist
     sorted(countlist[x:x+2], key=itemgetter(1,2))
 
-print(countlist)
+for x in countlist:
+    print(x[1]*x[0])
 
 
     
