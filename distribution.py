@@ -50,7 +50,7 @@ for x in abc:
         countlist.append((n, x))
 
 
-countlist = sorted(countlist, key=lambda x: (-x[0], x[1])
+countlist = sorted(countlist, key=lambda x: (-x[0], x[1]))
 
 print(countlist)
 
